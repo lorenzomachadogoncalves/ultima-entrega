@@ -1,0 +1,218 @@
+{
+	"info": {
+		"_postman_id": "36697ebf-62e0-4540-b0b4-3038ad692056",
+		"name": "New Collection",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "39724677"
+	},
+	"item": [
+		{
+			"name": "http://localhost:8080/gold-ear-spring/usuarios/criar",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJBUEkgQXZhbGlhciBQcm9qZXRvcyIsInN1YiI6Imp1bGlhQGdtYWlsLmNvbSIsIlJPTEUiOiJtZW1icm8iLCJleHAiOjE3MzM5NDg4NjZ9.hH3nVibZA59ShhYOGltsnAwaGNbdpDK77tM0IhNA-fA",
+							"type": "string"
+						}
+					]
+				},
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"email\": \"julia@gmail.com\",\r\n    \"senha\": \"1234\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8080/gold-ear-spring/usuarios/criar",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"gold-ear-spring",
+						"usuarios",
+						"criar"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8080/gold-ear-spring/discos/criar",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/gold-ear-spring/discos/criar",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"gold-ear-spring",
+						"discos",
+						"criar"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8080/gold-ear-spring/artistas/criar",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/gold-ear-spring/artistas/criar",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"gold-ear-spring",
+						"artistas",
+						"criar"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8080/gold-ear-spring/usuarios/listar",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/gold-ear-spring/usuarios/listar",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"gold-ear-spring",
+						"usuarios",
+						"listar"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8080/gold-ear-spring/artistas/listar",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/gold-ear-spring/artistas/listar",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"gold-ear-spring",
+						"artistas",
+						"listar"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8081/gold-ear-spring/discos/listar",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8081/gold-ear-spring/discos/listar",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8081",
+					"path": [
+						"gold-ear-spring",
+						"discos",
+						"listar"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8080/gold-ear-spring/membros/listar",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/gold-ear-spring/membros/listar",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"gold-ear-spring",
+						"membros",
+						"listar"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8080/gold-ear-spring/funcionarios/listar",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/gold-ear-spring/artistas/listar",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"gold-ear-spring",
+						"artistas",
+						"listar"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8080/gold-ear-spring/atribuir-disco/{idArtista}",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/gold-ear-spring/atribuir-disco/{idArtista}",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"gold-ear-spring",
+						"atribuir-disco",
+						"{idArtista}"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
